@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const fname = 'Michael';
+const lname = "Elliott";
+const number = 100;
+
 ReactDOM.render(
   <div>
-    <h1>My Favourite Foods</h1>
+    <h1> {fname} {lname}'s Favorite foods.</h1>
     <ul>
       <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
+      <li>Sweet Potatoes {number}%</li>
+      <li>Eggs with mushroom</li>
     </ul>
-  </div>,
+  </div>
 
-  document.getElementById("root")
+  ,document.getElementById("root")
 );
